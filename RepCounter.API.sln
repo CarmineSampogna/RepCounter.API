@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepCounter.API", "RepCounter.API\RepCounter.API.csproj", "{F239C475-DD62-40B3-B180-3FA200BFC0B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recpounter.Common.Model", "Recpounter.Common.Model\Recpounter.Common.Model.csproj", "{0818A08D-397B-4C08-BD38-61B6F6092E71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepCounter.Common.Model", "Recpounter.Common.Model\RepCounter.Common.Model.csproj", "{0818A08D-397B-4C08-BD38-61B6F6092E71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

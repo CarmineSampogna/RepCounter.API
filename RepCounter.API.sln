@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepCounter.API", "RepCounte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepCounter.Common.Model", "Recpounter.Common.Model\RepCounter.Common.Model.csproj", "{0818A08D-397B-4C08-BD38-61B6F6092E71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepCounter.DataAccess.Abstractions", "RepCounter.DataAccess.Abstractions\RepCounter.DataAccess.Abstractions.csproj", "{39C4F859-B1B6-49ED-97E7-9FC6FF88C392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepCounter.DataAccess.EF", "RepCounter.DataAccess.EF\RepCounter.DataAccess.EF.csproj", "{AAF159E5-AAAC-4130-B688-E8CFD1C61CB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0818A08D-397B-4C08-BD38-61B6F6092E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0818A08D-397B-4C08-BD38-61B6F6092E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0818A08D-397B-4C08-BD38-61B6F6092E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C4F859-B1B6-49ED-97E7-9FC6FF88C392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C4F859-B1B6-49ED-97E7-9FC6FF88C392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C4F859-B1B6-49ED-97E7-9FC6FF88C392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C4F859-B1B6-49ED-97E7-9FC6FF88C392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF159E5-AAAC-4130-B688-E8CFD1C61CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF159E5-AAAC-4130-B688-E8CFD1C61CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF159E5-AAAC-4130-B688-E8CFD1C61CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF159E5-AAAC-4130-B688-E8CFD1C61CB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

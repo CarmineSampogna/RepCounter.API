@@ -24,6 +24,10 @@
 		/// A description of the Exercise.
 		/// </summary>
 		public string Description { get; set; }
+
+		/// <summary>
+		/// True if the exercise uses body weight.
+		/// </summary>
 		public bool IsBodyWeightExercise { get; set; }
 	}
 }

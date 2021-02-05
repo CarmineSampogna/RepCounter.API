@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Recpounter.Common.Model
+﻿namespace RepCounter.Common.Model
 {
 	/// <summary>
 	/// The unit of measure used to log weight. Either Pounds or Kilograms

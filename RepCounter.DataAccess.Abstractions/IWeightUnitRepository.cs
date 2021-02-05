@@ -1,4 +1,4 @@
-﻿using Recpounter.Common.Model;
+﻿using RepCounter.Common.Model;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

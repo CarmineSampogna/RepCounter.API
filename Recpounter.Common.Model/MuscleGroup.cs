@@ -1,9 +1,9 @@
-﻿namespace Recpounter.Common.Model
+﻿namespace RepCounter.Common.Model
 {
 	/// <summary>
 	/// Represents a groupp of muscles targeted by a workout.
 	/// </summary>
-	public class MuscleGoup : EntityBase
+	public class MuscleGroup : EntityBase
 	{
 		/// <summary>
 		/// The primary key.

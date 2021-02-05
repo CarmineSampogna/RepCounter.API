@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Recpounter.Common.Model;
+using RepCounter.Common.Model;
 
 namespace RepCounter.DataAccess.EF.EntityConfiguration
 {
@@ -7,6 +7,14 @@ namespace RepCounter.DataAccess.EF.EntityConfiguration
 	{
 		public static void Configure(ModelBuilder modelBuilder)
 		{
+			modelBuilder.Entity<ExerciseMuscleGroup>()
+				.HasOne(emg => emg.Exercise)
+				.WithMany(ex => ex.ExerciseMuscleGroups);
+
+			modelBuilder.Entity<ExerciseMuscleGroup>()
+				.HasOne(emg => emg.MuscleGoup)
+				.WithMany();
+
 			modelBuilder.Entity<ExerciseMuscleGroup>()
 				.Property(emg => emg.ExerciseId)
 				.IsRequired();

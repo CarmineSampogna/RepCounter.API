@@ -1,4 +1,6 @@
-﻿namespace Recpounter.Common.Model
+﻿using System.Collections.Generic;
+
+namespace RepCounter.Common.Model
 {
 	/// <summary>
 	/// An Exercise that can be performed.
@@ -29,5 +31,7 @@
 		/// True if the exercise uses body weight.
 		/// </summary>
 		public bool IsBodyWeightExercise { get; set; }
+
+		public IEnumerable<ExerciseMuscleGroup> ExerciseMuscleGroups { get; set; }
 	}
 }

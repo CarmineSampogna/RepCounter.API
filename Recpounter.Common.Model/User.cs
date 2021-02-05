@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Recpounter.Common.Model
+﻿namespace RepCounter.Common.Model
 {
 	/// <summary>
 	/// Represents an app user.
 	/// </summary>
-	public class User 
+	public class User
 	{
 		/// <summary>
 		/// The primary key

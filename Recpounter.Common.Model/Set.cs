@@ -1,4 +1,4 @@
-﻿namespace Recpounter.Common.Model
+﻿namespace RepCounter.Common.Model
 {
     /// <summary>
     /// Represents a set of repititions of an Exercise performed in a Workout.
@@ -14,16 +14,18 @@
         /// The foreign key of the WorkoutExercise.
         /// </summary>
         public long WorkoutExerciseId { get; set; }
+		public WorkoutExercise WorkoutExercise { get; set; }
 
-        /// <summary>
-        /// The id of the Wight Unit the user selected for this set.
-        /// </summary>
-        public long WeightUnitId { get; set; }
+		/// <summary>
+		/// The id of the Wight Unit the user selected for this set.
+		/// </summary>
+		public long WeightUnitId { get; set; }
+		public WeightUnit WeightUnit { get; set; }
 
-        /// <summary>
-        /// The number of this set.
-        /// </summary>
-        public int SetNumber { get; set; }
+		/// <summary>
+		/// The number of this set.
+		/// </summary>
+		public int SetNumber { get; set; }
 
         /// <summary>
         /// The number of repititions performed in this Set.

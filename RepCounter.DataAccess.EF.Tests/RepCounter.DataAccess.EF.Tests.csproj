@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Recpounter.Common.Model\RepCounter.Common.Model.csproj" />
+    <ProjectReference Include="..\RepCounter.DataAccess.EF\RepCounter.DataAccess.EF.csproj" />
+  </ItemGroup>
+
+</Project>

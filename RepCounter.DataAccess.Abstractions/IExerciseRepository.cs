@@ -4,11 +4,12 @@ using System.Threading.Tasks;
 
 namespace RepCounter.DataAccess.Abstractions
 {
-	interface IExerciseRepository : IGetAll<Exercise>
+	public interface IExerciseRepository : IGetAll<Exercise>
 	{
-		Task GetAsync(long exerciseId);
-		Task UpsertAsync(Exercise exercise);
-		Task UpsertAsync(IEnumerable<Exercise> exercises);
+		Task<Exercise> GetAsync(long exerciseId);
+		Task<IEnumerable<Exercise>> GetForUserAsync(string userId);
+		Task<Exercise> UpsertAsync(Exercise exercise);
+		Task<IEnumerable<Exercise>> UpsertAsync(IEnumerable<Exercise> exercises);
 		Task DeleteAsync(Exercise exercise);
 		Task DeleteAsync(IEnumerable<Exercise> exercises);
 	}

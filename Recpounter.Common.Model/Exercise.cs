@@ -33,5 +33,19 @@ namespace RepCounter.Common.Model
 		public bool IsBodyWeightExercise { get; set; }
 
 		public IEnumerable<ExerciseMuscleGroup> ExerciseMuscleGroups { get; set; }
+
+		public override bool Equals(object obj)
+		{
+			if (!(obj is Exercise)) return false;
+
+			Exercise that = obj as Exercise;
+
+			return GetHashCode() == that.GetHashCode();
+		}
+
+		public override int GetHashCode()
+		{
+			return ExerciseId.GetHashCode();
+		}
 	}
 }
